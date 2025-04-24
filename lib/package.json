@@ -1,0 +1,20 @@
+{
+  "name": "lucid-cardano",
+  "version": "0.20.9",
+  "description": "Lucid is a library designed to simplify creating Cardano transactions and writing off-chain code for Plutus contracts.",
+  "author": "Alessandro Konrad",
+  "repository": "https://github.com/spacebudz/lucid",
+  "license": "MIT",
+  "main": "./esm/mod.js",
+  "module": "./esm/mod.js",
+  "exports": {
+    ".": {
+      "import": "./esm/mod.js"
+    }
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "_generatedBy": "dnt@dev"
+}
